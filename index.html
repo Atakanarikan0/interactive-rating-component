@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İnteractive Rating Component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/rating.css">
+  <script src="assets/js/rating.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+       <div class="card-main">
+          <img src="assets/img/star.png" alt="">
+          <h1>How did we do?</h1>
+          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+          <div class="point-group">
+            <button class="rating-point">1</button>
+            <button class="rating-point">2</button>
+            <button class="rating-point">3</button>
+            <button class="rating-point">4</button>
+            <button class="rating-point">5</button>
+          </div>
+          <button id="submitBtn">SUBMIT</button>
+       </div>
+       <div class="card-completed">
+          <img src="assets/img/payment.png" alt="">
+          <h3>You selected 4 out of 5</h3>
+          <h1>Thank you!</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+       </div>
+    </div>
+  </div>
+</body>
+</html>
